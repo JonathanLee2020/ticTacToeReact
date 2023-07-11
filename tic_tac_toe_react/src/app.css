@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+.board {
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.square {
+    width: calc(100%/3);
+    border: 5px solid black;
+}
